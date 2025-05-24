@@ -4,8 +4,6 @@ A cross-platform mobile application built with Flutter for managing and playing 
 
 ## Features
 
-- Browse and search music tracks
-- Create, edit, and delete playlists
 - Full playback controls (play, pause, skip)
 - Save playlists locally for offline access
 - Clean, responsive interface optimized for mobile
