@@ -1,32 +1,31 @@
 # Music Playlist App
 
-A cross-platform mobile application built with Flutter for managing and playing music. This app provides an intuitive interface for browsing tracks, creating playlists, and enjoying music on both Android and iOS devices.
+A cross-platform Flutter app for managing and playing music with background audio and notification support. Enjoy your favorite tracks with a modern, responsive interface on Android and iOS.
 
 ## Features
 
-- Full playback controls (play, pause, skip)
-- Save playlists locally for offline access
-- Clean, responsive interface optimized for mobile
+- Play, pause, skip, and seek music tracks
+- Reads music from bundled assets
+- Clean, mobile-optimized UI
 
 ## Getting Started
 
 ### Prerequisites
-
-- Flutter SDK (follow [installation guide](https://flutter.dev/docs/get-started/install))
-- IDE with Flutter support (Android Studio, VS Code)
-- Mobile device or emulator
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio, VS Code, or any IDE with Flutter support
+- Android/iOS device or emulator
 
 ### Installation
 
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/kittipan2206/music_playlist_app.git
 cd music_playlist_app
 
 # Install dependencies
 flutter pub get
 
-# Run application
+# Run the app
 flutter run
 ```
 
@@ -40,26 +39,28 @@ flutter build apk
 flutter build ios
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 lib/
-├── main.dart          # Entry point
+├── main.dart          # App entry point
 ├── models/            # Data models
-├── screens/           # App screens
-├── widgets/           # UI components
-├── services/          # Business logic
-└── utils/             # Helper functions
+├── screens/           # UI screens
+├── widgets/           # Reusable widgets
+├── services/          # Audio, music, and background logic
+└── utils/             # Helper utilities
 ```
 
 ## Dependencies
 
-- **just_audio**: Audio playback functionality
+- **just_audio**: Audio playback
 - **provider**: State management
-- **shared_preferences**: Local data persistence
+- **shared_preferences**: Local storage
 - **path_provider**: File system access
+- **permission_handler**: Runtime permissions
+- **audio_metadata_reader**: Read music metadata
 
-## Required Permissions
+## Permissions
 
 ### Android
 ```xml
@@ -80,4 +81,4 @@ lib/
 
 ## License
 
-Released under the MIT License. See LICENSE file for details.
+MIT License. See LICENSE for details.
