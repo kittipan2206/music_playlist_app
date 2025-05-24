@@ -2,7 +2,7 @@
 
 A cross-platform mobile application built with Flutter for managing and playing music. This app provides an intuitive interface for browsing tracks, creating playlists, and enjoying music on both Android and iOS devices.
 
-## ✨ Features
+## Features
 
 - Browse and search music tracks
 - Create, edit, and delete playlists
@@ -10,7 +10,7 @@ A cross-platform mobile application built with Flutter for managing and playing 
 - Save playlists locally for offline access
 - Clean, responsive interface optimized for mobile
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -54,14 +54,14 @@ lib/
 └── utils/             # Helper functions
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 - **just_audio**: Audio playback functionality
 - **provider**: State management
 - **shared_preferences**: Local data persistence
 - **path_provider**: File system access
 
-## 🔒 Required Permissions
+## Required Permissions
 
 ### Android
 ```xml
@@ -80,6 +80,6 @@ lib/
 <string>This app requires microphone access for audio playback</string>
 ```
 
-## 📄 License
+## License
 
 Released under the MIT License. See LICENSE file for details.
