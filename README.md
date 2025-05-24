@@ -22,8 +22,8 @@ A cross-platform mobile application built with Flutter for managing and playing 
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/music-playlist-app.git
-cd music-playlist-app
+git clone https://github.com/kittipan2206/music_playlist_app.git
+cd music_playlist_app
 
 # Install dependencies
 flutter pub get
